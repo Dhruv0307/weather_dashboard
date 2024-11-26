@@ -1,0 +1,13 @@
+.forecast_icon_temp_date{
+    color: white;
+    display: flex;
+    gap: 50px;
+}
+
+.forecast_icon_temp_date .forecast_icon{
+    font-size: 40px;
+}
+
+.forecast_icon_temp_date .forecast_temp{
+    font-weight: bold;
+}

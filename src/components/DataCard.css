@@ -1,0 +1,17 @@
+.data-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 400px;
+    height: 400px;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #393939;
+}
+
+@media (max-width: 450px){
+    .data-card{
+        width: 80%;
+    }
+}

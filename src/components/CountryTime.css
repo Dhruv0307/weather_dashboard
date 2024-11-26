@@ -1,0 +1,35 @@
+.country_time_date{
+    background-color: black;
+    border: 1px solid #393939;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    /* height: 400px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 120px;
+}
+
+.country_time_date .country{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.country_time_date .time{
+    font-size: 90px;
+    margin: 0px;
+}
+
+.country_time_date .date{
+    margin: 0px;
+}
+
+@media (max-width: 450px){
+    .country_time_date{
+        width: 80%;
+
+    }
+}

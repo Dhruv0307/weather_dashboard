@@ -1,0 +1,29 @@
+.forecast{
+    color: white;
+    width: 400px;
+    /* height: 400px; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 1px solid #393939;
+    border-radius: 10px
+}
+
+.forecast h2{
+    font-size: 30px;
+}
+
+img{
+    width: 52px;
+    height: 52px;
+}
+
+@media (max-width: 450px){
+    .forecast{
+        width: 80%;
+        margin: auto;
+    }
+}
